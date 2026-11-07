@@ -354,11 +354,28 @@ header nav a:hover {
       © 2026 Milwebix Solutions. All rights reserved.
     </div>
   </footer>
+
+  
 <scrip>
   const form = document.getElementById("contact-form");
-  form.addEventListener("submit", function(event) {
 
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const formData = new FormData(form);
+
+    fetch(form.action, {
+        method: "POST",
+        body: formData,
+        mode: "no-cors"
+    }).then(() => {
+        window.location.href = "thank-you.html";
+    }).catch(() => {
+        alert("Something went wrong. Please try again.");
+    });
 });
 </scrip>
+
+  
 </body>
 </html>
