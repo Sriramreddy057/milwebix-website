@@ -16,3 +16,11 @@ p{
     line-lenght:1.8
     color: #cbd5e1
 }
+a{
+  display: inline-block;
+  background-color: #25C8F5;
+  color: #0b1220;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+}
