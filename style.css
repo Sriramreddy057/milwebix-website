@@ -24,3 +24,17 @@ a{
   text-decoration: none;
   border-radius: 8px;
 }
+a.hover{
+  background-color: #ffffff;
+  color: #0b1220;
+}
+main{
+  min-height: 100hv;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main{
+  gap: 20px;
+}
