@@ -60,3 +60,12 @@ a{color:inherit}
 @media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:25px}.hero-copy{max-width:680px}.hero-visual{min-height:440px}.hero{padding-top:75px}.section-intro{align-items:flex-start;flex-direction:column;gap:15px}.process-layout,.contact-layout{grid-template-columns:1fr;gap:45px}.contact-copy{padding-top:0}.hero-bottom{margin-top:35px}}
 @media(max-width:650px){.container{width:min(100% - 34px,560px)}.nav-wrap{height:70px}.brand img{height:42px}.menu-toggle{display:flex;flex-direction:column;gap:5px;padding:10px}.menu-toggle span{width:23px;height:2px;background:#eaf4ff;border-radius:2px}.main-nav{display:none;position:absolute;top:69px;left:0;right:0;padding:18px 24px 24px;background:rgba(7,11,22,.97);border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:17px}.main-nav.is-open{display:flex}.main-nav .nav-cta{text-align:center}.hero{padding:66px 0 25px;min-height:0}.hero h1{font-size:clamp(42px,12vw,60px)}.hero-lede{font-size:15px}.hero-proof{margin-top:35px}.hero-visual{min-height:370px;margin:0 -8px}.dashboard-card{padding:13px;transform:none}.visual-label{left:4%;top:0}.orbit-a{width:350px;height:220px}.orbit-b{width:320px;height:190px}.float-chip{font-size:8px;padding:8px 10px}.chip-top{right:0;top:45px}.chip-bottom{left:0;bottom:24px}.hero-bottom{font-size:7px;gap:9px;letter-spacing:.08em}.section-pad{padding:78px 0}.section-intro h2,.process-copy h2,.about-panel h2,.contact-copy h2{font-size:39px}.services-grid{grid-template-columns:1fr}.service-card{padding:21px}.service-card p{min-height:0}.process-layout{gap:35px}.about-section{padding-top:0}.about-panel{padding:52px 22px}.contact-form{padding:21px}.footer-inner{flex-direction:column;text-align:center;gap:9px}.thankyou-card{padding:45px 23px}.thankyou-card>p{font-size:14px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+
+/* Thank-you page logo enhancement */
+.thankyou-page .brand img {
+    height: 76px;
+    max-width: 260px;
+    width: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 0 14px rgba(57, 213, 242, 0.28));
+}
